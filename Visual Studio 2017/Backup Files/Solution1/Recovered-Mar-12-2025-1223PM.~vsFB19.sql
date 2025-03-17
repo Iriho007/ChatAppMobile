@@ -1,0 +1,13 @@
+SELECT TOP (1000) [User_ID]
+      ,[Source_Acct_No]
+      ,[Beneficiary_Acct_No]
+      ,[Amount]
+      ,[Medium]
+      ,[Date]
+      ,[Remark]
+      ,[BeneficiaryEmail]
+      ,[BeneficiaryMobileNo]
+      ,[TrasanctionStatus]
+      ,[DateUnblocked]
+      ,[UnblockedBy]
+  FROM [e_one].[dbo].[Third_Party_Transfer_Log]  where date>='25 feb 2025'

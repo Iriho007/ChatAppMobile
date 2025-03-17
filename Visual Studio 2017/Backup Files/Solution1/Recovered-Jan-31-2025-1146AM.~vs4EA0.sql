@@ -1,0 +1,1 @@
+SELECT TOP 100 * FROM IncomingRawData order by RowId DESC

@@ -1,0 +1,77 @@
+USE [BNRLIVE]
+GO
+/****** Object:  Table [dbo].[BANK_ACCT]    Script Date: 1/30/2025 3:04:40 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[BANK_ACCT](
+	[swift_code] [varchar](20) NULL,
+	[account] [varchar](20) NULL,
+	[currency] [varchar](5) NULL
+) ON [PRIMARY]
+GO
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'AFRWRWR0', N'1000036222-EUR', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BKORRWR0', N'1000041617-EUR', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BKIGRWR0', N'3207840-EUR', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BRDRRWR0', N'3207656-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BPRWRWR0', N'3207682-EUR', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'EQBLRWR0', N'3207919-EUR', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'ECOCRWR0', N'1000035501-EUR', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'GTBIRWR0', N'1000010053-EUR', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'AFRWRWRW', N'1000036222', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'CGBKRWRW', N'1000033703', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'RIMIRWIP', N'10000080345-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'LERSRWIP', N'1000080337-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'AMIFRWIP', N'1000080329-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'UMUFRWIP', N'1000080318-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'DUTERWIP', N'1000010697-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'GOSHRWIP', N'1000010665-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'COPERWIP', N'1000080302-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'VISIRWIP', N'1000080523-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'FISARWIP', N'1000080361-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'INKURWIP', N'1000080353-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BNRWRWRW', N'000056298-EUR', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'MUGARWIP', N'1000103442-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'CBAFRWR0', N'1000050888-EUR', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'ZCSSRWRW', N'3207765-EUR', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BNRWRWRW', N'4100020-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'IMRWRWR0', N'1240000-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BKIGRWR0', N'1240100-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'GTBIRWR0', N'1240200-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BKORRWRW', N'1240500-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'CGBKRWRW', N'1240600-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BPRWRWRW', N'1240700-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'ECOCRWRW', N'1240400-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BRDRRWRW', N'1241100-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'EQBLRWR0', N'1241310-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'KCBLRWR0', N'1240900-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BNRWRWRW', N'3720101-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'IMRWRWR0', N'3208000-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BKIGRWR0', N'3208100-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'GTBIRWRK', N'3208200-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BKORRWRW', N'3208500-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'CGBKRWRW', N'3208600-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BPRWRWR0', N'3208700-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'ECOCRWRW', N'3208400-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'LHRWRWRW', N'3207656-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'EQBLRWR0', N'3207890-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'KCBLRWRW', N'3208900-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'UOBRRWR0', N'1240800-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'AFRWRWR0', N'1241315-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'ZCSSRWRW', N'1284000-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'ZCSSRWRW', N'3207609-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'UNGURWR0', N'1241301-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'UNGURWR0', N'3209000-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'AFRWRWR0', N'3207921-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'UOBRRWRW', N'3208800-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'ABBRRWRW', N'1241316-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'ABBRRWRW', N'3208022-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'ABBRRWRW', N'3208023-EUR', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'CBAFRWR0', N'1241317-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'CBAFRWR0', N'3208027-USD', N'USD')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'BRDCRWRW', N'1000029153-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'UMWARWR0', N'1000010681-RWF', N'RWF')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'IMRWRWR0', N'1000026561', N'EUR')
+INSERT [dbo].[BANK_ACCT] ([swift_code], [account], [currency]) VALUES (N'IMRWRWR0', N'1000026561-EUR', N'EUR')
+GO

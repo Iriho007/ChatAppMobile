@@ -1,0 +1,2 @@
+cmd from the folder (office setup)
+run this command "setup /configure configuration.xml"

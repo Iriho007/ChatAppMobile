@@ -1,0 +1,2 @@
+The system error occurs in the function   USBLS_Open - USBInquiry_Ls150
+is 31, 128

@@ -1,0 +1,67 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Fri Feb 14 15:57:47 2020
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   C:\\ClearingUpload\\Ctrl.ctl
+Data File:      C:\\ClearingUpload\\RIPPSFile.txt
+  Bad File:     C:\\ClearingUpload\\RIPPSBadFile.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table FCCRWDA.DETB_UPLOAD_DETAIL, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+INSTRUMENT_NO                       FIRST     *   |       CHARACTER            
+FIN_CYCLE                            NEXT     *   |       CHARACTER            
+PERIOD_CODE                          NEXT     *   |       CHARACTER            
+VALUE_DATE                           NEXT     *   |       CHARACTER            
+ADDL_TEXT                            NEXT     *   |       CHARACTER            
+BRANCH_CODE                          NEXT     *   |       CHARACTER            
+SOURCE_CODE                          NEXT     *   |       CHARACTER            
+ACCOUNT_BRANCH                       NEXT     *   |       CHARACTER            
+ACCOUNT                              NEXT     *   |       CHARACTER            
+TXN_CODE                             NEXT     *   |       CHARACTER            
+BATCH_NO                             NEXT     *   |       CHARACTER            
+CURR_NO                              NEXT     *   |       CHARACTER            
+AMOUNT                               NEXT     *   |       CHARACTER            
+DR_CR                                NEXT     *   |       CHARACTER            
+UPLOAD_STAT                          NEXT     *   |       CHARACTER            
+CCY_CD                               NEXT     *   |       CHARACTER            
+INITIATION_DATE                      NEXT     *   |       CHARACTER            
+LCY_EQUIVALENT                       NEXT     *   |       CHARACTER            
+EXCH_RATE                            NEXT     *   |       CHARACTER            
+
+value used for ROWS parameter changed from 64 to 52
+
+Table FCCRWDA.DETB_UPLOAD_DETAIL:
+  4 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 254904 bytes(52 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             4
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Fri Feb 14 15:57:47 2020
+Run ended on Fri Feb 14 15:57:47 2020
+
+Elapsed time was:     00:00:00.60
+CPU time was:         00:00:00.03

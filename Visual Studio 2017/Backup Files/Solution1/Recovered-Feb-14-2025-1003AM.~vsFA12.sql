@@ -1,0 +1,12 @@
+SELECT [transaction_id]
+      ,[acc_from]
+      ,[acc_to]
+      ,[card_id]
+      ,[charged_amount]
+      ,[missed]
+      ,[missed_date]
+      ,[missed_reason]
+      ,[recovery_date]
+      ,[remaining_amount]
+      ,[transaction_date]
+  FROM [COS].[dbo].[card_charge] where transaction_date<='31 dec 2018'  and missed=0

@@ -1,0 +1,42 @@
+SELECT TOP (1000) [Reference]
+      ,[Sender]
+      ,[Receiver]
+      ,[OrderingBank]
+      ,[OrderingAcct]
+      ,[BeneficiaryBank]
+      ,[BeneficiaryAcct]
+      ,[ValueDate]
+      ,[Currency]
+      ,[Amount]
+      ,[SendetToReceiverInfo]
+      ,[OrderingCustAcct]
+      ,[OrderingCustName]
+      ,[OrderingCustAddress]
+      ,[BeneficiaryCustAcct]
+      ,[BeneficiaryCustName]
+      ,[BeneficiaryCustAddress]
+      ,[InstructionCode]
+      ,[DetailsOfCharge]
+      ,[BankOperationCode]
+      ,[TransactionTypeCode]
+      ,[PaymentDetails]
+      ,[EnteringUser]
+      ,[Authorizer]
+      ,[SendingUser]
+      ,[Doc_Level]
+      ,[Sent]
+      ,[EntryDate]
+      ,[CBSResponseCode]
+      ,[CBSResponseText]
+      ,[CBSPostingUser]
+      ,[ChargeType]
+      ,[ChargeAmount]
+      ,[CBSReference]
+      ,[send_date]
+  FROM [BNRLIVE].[dbo].[SWIFT_MT103]   order by ValueDate desc
+
+  update SWIFT_MT103 SET DOC_LEVEL=3 where Reference='D133760457970263' and Authorizer='UWAMAHORO'
+
+  update Utilisateur set Active=1, Mustchange=0, Attempts=0 where UserAccount='clearing'
+
+  select * from Utilisateur   where UserAccount='clearing'

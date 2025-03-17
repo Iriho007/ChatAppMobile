@@ -1,0 +1,1 @@
+select * from BNRLIVE.dbo.SWIFT_MT103 where OrderingCustAcct='211/266648/1/5118/1' and Amount IN (6764325, 1239500)
